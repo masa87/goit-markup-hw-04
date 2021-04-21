@@ -131,17 +131,24 @@ img {
     color: var(--third-color);
 }
 
+/* .navigation_list-item-link-contact::before {
+
+} */
+
 /* ===== END HEADER ===== */
 
 /* =====  HERO ===== */
 
-.hero {
+.hero .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: #2F303A;
-    background-image
+    margin: 0 auto;
+    min-width: 1200px;
+    max-width: 1600px;
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/main/hero.jpg);
+    background-size: cover;
 }
 
 .hero-text {
@@ -384,6 +391,13 @@ img {
     margin-bottom: 30px;
     align-self: flex-start;
     background: #FFFFFF;
+    cursor: pointer;
+}
+
+.main_section-card-list-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 
