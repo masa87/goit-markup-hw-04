@@ -67,6 +67,42 @@ img {
     color: var(--third-color);
 }
 
+.icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.envelope {
+    width: 16px;
+    height: 12px;
+}
+
+.smartphone {
+    height: 16px;
+    width: 10px;
+}
+
+.social-icon-list {
+    display: flex;
+}
+
+.social-icon-list-item {
+    display: flex;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 12px;
+}
+
+
+
 /* ===== END COMPONENT ===== */
 
 /* ===== HEADER ===== */
@@ -104,7 +140,6 @@ img {
 
 .navigation_list {
     display: flex;
-    flex-basis: 272px;
     justify-content: space-between;
     margin-left: 95px;
 }
@@ -119,6 +154,10 @@ img {
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
+}
+
+.navigation_list-item:not(:last-child) {
+    margin-right: 46px;
 }
 
 .navigation_list-item-link:hover,
@@ -263,7 +302,9 @@ img {
 }
 
 .team_list-item {
-    height: 368px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -280,12 +321,29 @@ img {
     margin-bottom: 10px;
 }
 
+.team .social-icon-list {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 18px;
+}
+
+.team .social-icon-list-item:hover {
+    background: var(--main-color);
+}
+
+.team .social-icon {
+    fill: var(--third-color);
+}
+
+.team .social-icon:hover {
+    fill: #fff;
+}
+
 /* ===== END OUR TEAM ===== */
 
 /* =====  FOOTER ===== */
 
 .footer {
-    /* height: 252px; */
     background-color: #2f303a;
 }
 
@@ -294,10 +352,10 @@ img {
     padding: 60px 15px;
     display: flex;
     width: 1200px;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
-.footer-logo {
+.footer .footer-logo {
     color: #fff;
 }
 
@@ -329,6 +387,29 @@ img {
     color: var(--main-color);
 }
 
+.footer_social-header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer_social {
+    margin-left: 70px;
+}
+
+.footer .social-icon-list-item:hover {
+    background: var(--main-color);
+}
+
+.footer-icon {
+    fill: #FFF;
+}
+
+
 /* ===== END FOOTER ===== */
 
 
@@ -338,8 +419,6 @@ img {
 
 
 /* =====  MAIN SECTION ===== */
-
-/* .main_section-nav-list {} */
 
 .main_section {
     width: 1200px;
