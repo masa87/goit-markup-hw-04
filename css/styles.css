@@ -173,16 +173,17 @@ img {
     color: var(--third-color);
 }
 
-.icon-envelope {
+.icon-header {
     width: 16px;
     height: 16px;
     color: currentColor;
 }
 
+/* 
 .icon-smartphone {
     width: 16px;
     height: 16px;
-}
+} */
 
 /* .navigation_list-item-link-contact::before {
 
@@ -352,19 +353,25 @@ img {
     text-align: center;
     margin-top: 16px;
     margin-bottom: 18px;
+
 }
 
 .team .social-icon-list-item:hover {
     background: var(--main-color);
 }
 
-.team .social-icon {
-    fill: var(--third-color);
+.social-icon-list-item-link {
+    color: var(--third-color);
 }
 
-.team .social-icon:hover {
-    fill: #fff;
+.social-icon-list-item-link:hover {
+    color: #fff;
 }
+
+.team .social-icon {
+    fill: currentColor;
+}
+
 
 /* ===== END OUR TEAM ===== */
 
