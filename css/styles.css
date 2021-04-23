@@ -50,6 +50,15 @@ img {
     padding-bottom: 94px;
 }
 
+.main-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+
 .list-item-header {
     font-weight: 500;
     font-size: 16px;
@@ -245,6 +254,18 @@ img {
 
 }
 
+.advantage_list-item-icon {
+    text-align: center;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.icon-advantage {
+    height: 70px;
+    width: 70px;
+    margin: 25px 100px;
+}
+
 .advantage_list-item-header {
     font-weight: 700;
     font-size: 14px;
@@ -252,6 +273,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--secondary-color);
+    margin-top: 30px;
 }
 
 .advantage_list-item-description {
@@ -345,6 +367,48 @@ img {
 }
 
 /* ===== END OUR TEAM ===== */
+
+/* =====  CLIENTS ===== */
+
+.clients .container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.clients_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.clients_list-item {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: var(--third-color);
+}
+
+.clients_list-item:hover {
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.clients_list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-icon {
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+    margin: 16px 32px;
+}
+
+
+/* =====  END CLIENTS ===== */
 
 /* =====  FOOTER ===== */
 
