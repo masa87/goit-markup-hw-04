@@ -179,15 +179,6 @@ img {
     color: currentColor;
 }
 
-/* 
-.icon-smartphone {
-    width: 16px;
-    height: 16px;
-} */
-
-/* .navigation_list-item-link-contact::before {
-
-} */
 
 /* ===== END HEADER ===== */
 
@@ -359,7 +350,8 @@ img {
 
 }
 
-.team .social-icon-list-item:hover {
+.team .social-icon-list-item:hover,
+.team .social-icon-list-item:focus {
     background: var(--main-color);
 }
 
@@ -367,7 +359,8 @@ img {
     color: var(--third-color);
 }
 
-.social-icon-list-item-link:hover {
+.social-icon-list-item-link:hover,
+.social-icon-list-item-link:focus {
     color: #fff;
 }
 
@@ -401,7 +394,8 @@ img {
     color: var(--third-color);
 }
 
-.clients_list-item:hover {
+.clients_list-item:hover,
+.clients_list-item:focus {
     color: var(--main-color);
     border-color: var(--main-color);
 }
@@ -481,7 +475,8 @@ img {
 }
 
 
-.footer .social-icon-list-item:hover {
+.footer .social-icon-list-item:hover,
+.footer .social-icon-list-item:focus {
     background: var(--main-color);
 }
 
@@ -553,7 +548,8 @@ img {
     cursor: pointer;
 }
 
-.main_section-card-list-item:hover {
+.main_section-card-list-item:hover,
+.main_section-card-list-item:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
