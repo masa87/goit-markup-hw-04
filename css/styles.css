@@ -185,6 +185,7 @@ img {
 /* =====  HERO ===== */
 
 .hero {
+    margin: 0 auto;
     min-width: 1200px;
     max-width: 1600px;
     background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
